@@ -13,8 +13,8 @@
 	height: 100vh;
 }
 .enemy1{
-	width: 60px;
-	height: 100px;
+	width: 50px;
+	height: 80px;
 	background: url('c4.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -24,8 +24,8 @@
 	bottom: 80px;
 }
 .enemy2{
-	width: 60px;
-	height: 100px;
+	width: 50px;
+	height: 80px;
 	background: url('c3.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -35,8 +35,8 @@
 	bottom: 80px;
 }
 .enemy3{
-	width: 60px;
-	height: 100px;
+	width: 50px;
+	height: 80px;
 	background: url('c1.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -46,8 +46,8 @@
 	bottom: 80px;
 }
 .enemy4{
-	width: 60px;
-	height: 95px;
+	width: 50px;
+	height: 80px;
 	background: url('c2.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -58,8 +58,8 @@
 }
 
 .car{
-	width: 80px;
-	height: 130px;
+	width: 50px;
+	height: 80px;
 	background: url('car2.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
