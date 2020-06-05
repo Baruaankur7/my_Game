@@ -65,7 +65,7 @@
     function rightDown(e){
         // e.preventDefault();
         keys.ArrowRight = true;
-
+	shake();
         keys.ArrowLeft = false;
         //console.log(e.key);
         console.log(keys);
@@ -78,14 +78,21 @@
         //console.log(e.key);
         console.log(keys);
     }
-// $(document).ready(function(){
-//   $("div").mouseup(function(){
-//     $(this).after(keys.ArrowLeft = false; keys.ArrowRight = false;);
-//   });
-//  });
+	
+	function shake() {
+  // For a single value you can pass in a Number rather than an Array
+  navigator.vibrate(200);
+}	
+	function shake2() {
+  // For a single value you can pass in a Number rather than an Array
+  navigator.vibrate(800);
+}
+		
+		
     function leftDown(e){
         // e.preventDefault();
         keys.ArrowLeft = true;
+	shake();
         keys.ArrowRight = false;
         //console.log(e.key);
         console.log(keys);
@@ -289,6 +296,7 @@
     function endgame(){
     	player.start = false;
     	startscreen.classList.remove('hide');
+	shake2();
     	startscreen.innerHTML = "Game Over !!<br> Your final score is " + player.score +" <br> <br> Press here to RESTART the game"
     	
     }
