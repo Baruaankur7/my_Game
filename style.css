@@ -106,7 +106,7 @@
 	line-height: 70px;
 	text-align: center;
 	color: black;
-	font-size: 4rem;
+	font-size: 3.5rem;
 	/* box-shadow: 0 10px 15px black; */
 	/* border: 3px solid black;
  */
@@ -136,13 +136,43 @@
 	border-radius: 50px;
 }
 
+@media screen and ( min-width:1248px){
+.startscreen{
+	position: absolute;
+	width: 50%;
+	height: 400px;
+	background-color: #ee5253;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	z-index: 10;
+	text-align: center;
+	border: 1px solid #ff6b6b ;
+	padding: 20px;
+	margin: auto;
+	cursor:  pointer;
+	letter-spacing: 5px;
+	font-size: 50px;
+	word-spacing: 3px;
+	line-height: 65px;
+	text-transform: uppercase;
+	box-shadow: 0 15px 35px black;
+	border-radius: 50px;
+}
+.right,.left{
+	display: none;
+}
+
+}
+
 .right{
 	width: 200px;
 	height: 240px;	
 	border-radius: 30px;
 	right: 15px;
 	/* top: 1200px; */
-	bottom: 350px;
+	bottom: 500px;
 	background: lightblue;
 	position: absolute;
 	font-size: 2.5rem;
@@ -161,7 +191,7 @@
 	box-shadow: 0 15px 35px black;
 	border-radius: 30px;
 	left: 15px;
-	bottom: 350px;
+	bottom: 500px;
 	background:lightblue;
 	position: absolute;
 	font-size: 2.5rem;
